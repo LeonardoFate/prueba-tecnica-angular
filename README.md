@@ -1,27 +1,28 @@
-# PruebaTecnicaAngular
+# Prueba Tenica Angular
+ Crea un pequeño componente Angular que muestre una lista de productos y permita seleccionar un producto para ver sus detalles.
+### Características:
+- Utiliza un array de objetos para almacenar información sobre los productos.
+- Permite abrir un modal para mostrar detalles del producto seleccionado.
+- Incluye un botón "Detalles" al lado de cada producto para facilitar la interacción del usuario.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+## Lista de Productos
+ ![image](https://github.com/user-attachments/assets/2514af06-50fc-4172-923f-6da34c4335e3)
 
-## Development server
+## Modal Descripción
+![image](https://github.com/user-attachments/assets/7df02738-849e-48ca-abc6-2ac8c09cd6c7)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologías utilizadas
+- Angular
+- TypeScript
+- SCSS
 
-## Code scaffolding
+  ## Contribuciones
+Si deseas contribuir, por favor sigue estos pasos:
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`).
+3. Realiza tus cambios y haz un commit (`git commit -m 'Agregué una nueva característica'`).
+4. Sube tus cambios (`git push origin feature/nueva-caracteristica`).
+5. Abre un Pull Request.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![image](https://github.com/user-attachments/assets/17a550a2-c4df-4432-9205-76ab4da844cb)

@@ -1,0 +1,9 @@
+<h2 class="product-list-title">Lista de Productos</h2>
+<ul class="product-list">
+  <li *ngFor="let product of products" class="product-item">
+    {{ product.title }}
+    <button (click)="selectProduct(product, modal)">Detalles</button>
+  </li>
+</ul>
+
+<app-product-modal #modal [product]="selectedProduct"></app-product-modal>

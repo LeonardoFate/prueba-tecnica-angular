@@ -1,0 +1,13 @@
+<div class="modal" *ngIf="isOpen" (click)="close()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <span class="close" (click)="close()">&times;</span>
+      <h3 class="product-title">Detalles del Producto</h3>
+      <p class="product-name"><strong>Nombre:</strong> {{ product.title }}</p>
+      <p class="product-description"><strong>Descripción:</strong> {{ product.description }}</p>
+      <div class="content-img">
+      <p class="product-price"><strong>Precio:</strong> {{ product.price | currency }}</p>
+
+      <img [src]="product.image" alt="{{ product.title }} " class="product-img"/>
+    </div>
+    </div>
+  </div>
